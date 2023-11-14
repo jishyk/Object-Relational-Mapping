@@ -15,8 +15,7 @@ This project is the backend for an e-commerce site, developed using Node.js, Exp
     - [Products](#products)
     - [Tags](#tags)
 6. [Technologies Used](#technologies-used)
-7. [Contributing](#contributing)
-8. [License](#license)
+7. [License](#license)
 
 ## Installation
 
@@ -28,7 +27,7 @@ npm install
 
 # Usage
 
-To start the application, run:
+To start the application run:
 
 ```bash
 npm start
@@ -49,3 +48,39 @@ DB_PASSWORD='your_mysql_password'
 DROP DATABASE IF EXISTS ecommerce_db;
 CREATE DATABASE ecommerce_db;
 ```
+
+# Seeding the Database
+
+To seed the database with initial data, run:
+```bash
+node seeds/index.js
+```
+
+# API Routes
+
+# Categories
+
+* GET /api/categories - Retrieves all categories.
+* GET /api/categories/:id - Retrieves a category by ID.
+
+# Products
+
+* GET /api/products - Retrieves all products.
+* GET /api/products/:id - Retrieves a product by ID.
+
+# Tags
+* GET /api/tags - Retrieves all tags.
+
+# Technologies Used
+* Node.js
+* MySQL
+* Express.js
+* Sequelize ORM
+
+# License
+
+This project is licensed under the MIT License.
+
+# Contact 
+
+* github URL - https://github.com/jishyk/Object-Relational-Mapping
